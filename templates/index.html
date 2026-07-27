@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Resume Skill Gap Analyzer</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>AI Resume Skill Gap Analyzer</h1>
+
+    <form action="/analyze" method="POST" enctype="multipart/form-data">
+
+        <label>Upload Resume (PDF / DOCX)</label>
+
+        <input type="file" name="resume" required>
+
+        <label>Upload Job Description (PDF / DOCX)</label>
+
+        <input type="file" name="job" required>
+
+        <button type="submit">Analyze Resume</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>

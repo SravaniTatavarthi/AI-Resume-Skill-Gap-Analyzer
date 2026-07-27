@@ -1,0 +1,11 @@
+Flask
+spacy
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+pdfplumber
+python-docx
+nltk
+sentence-transformers
